@@ -8,7 +8,7 @@ module.exports = {
     userSignUp: async (req, res) => {
 
         try {
-            if(req.body.password && req.body.username){
+            if(req.body.password && req.body.username && req.body.email){
             req.body.password = await bcrypt.hash(req.body.password, 10);
             const user = await User.create(req.body)
             res.json({ status: 'ok' })
