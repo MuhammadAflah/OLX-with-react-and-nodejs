@@ -11,9 +11,9 @@ function Post() {
           <span>Quick Menu</span>
           <span>View more</span>
         </div>
-        <div className="cards">
+        <div className="cards post">
           <div
-            className="card"
+            className="card post"
           >
             <div className="favorite">
               <Heart></Heart>
@@ -36,8 +36,8 @@ function Post() {
         <div className="heading">
           <span>Fresh recommendations</span>
         </div>
-        <div className="cards">
-          <div className="card">
+        <div className="cards post">
+          <div className="card post">
             <div className="favorite">
               <Heart></Heart>
             </div>
